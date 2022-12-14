@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "es5",
+    "isolatedModules": true,
+    "sourceMap": true,
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    "types": ["@types/chrome"],
+    "removeComments": true,
+    "forceConsistentCasingInFileNames": true,
+    "typeRoots": ["node_modules/@types"],
+    "baseUrl": "."
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts"]
+}
